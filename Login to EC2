@@ -11,6 +11,6 @@
 
 #Another way to login on AWS Linux instances.
 1. Open PUTTYGen and generte you own PUBLIC and PRIVATE key and upload into AWS using IMPORT.
-2. Same as above once you will configure EC2 Linux instance you will ask to choose the PUBLIC which was IMPORTED BY using PUTTYGen.
+2. Same as above once you will configure EC2 Linux instance you will ask to choose the PUBLIC which was IMPORTED by you using PUTTYGen.
 3. Download the PRIVATE Key and following above you will able to login.
 
