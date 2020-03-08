@@ -1,0 +1,16 @@
+# There are various way to connect to EC2 instances.
+# Below use case for Linux Box. AWS Linux instances come with public and private key.
+# AWS help you to download the private key which you will use to login into instances.
+# Convert this .PEM file into .PPK key using the PUTTYGen 
+1. Download the PUTTYGen on you machine and open.
+2. Load .PEM file into PUTTYGen and save priate key with extension of .PPK.
+3. Open the PUTTY session and put the IP or FQDN of instance.
+4. Go to SSH option on PUTTY and select the "AUTH" and then "BROWSE" and upload the .PPK file.
+5. Once you will done "LOGIN AS:" option will prompt.
+6. Here you put the "ec2-user" which default user name for Linux instance in AWS.
+
+#Another way to login on AWS Linux instances.
+1. Open PUTTYGen and generte you own PUBLIC and PRIVATE key and upload into AWS using IMPORT.
+2. Same as above once you will configure EC2 Linux instance you will ask to choose the PUBLIC which was IMPORTED BY using PUTTYGen.
+3. Download the PRIVATE Key and following above you will able to login.
+
